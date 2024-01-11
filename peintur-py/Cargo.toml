@@ -1,0 +1,15 @@
+[package]
+name = "peintur-py"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "peintur"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.20.2"
+pyo3-polars = "0.10.0"
+peintur = { version = "*", path = "../peintur" }
+polars = "0.36.2"

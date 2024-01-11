@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "peintur",
+    "peintur-py",
+    "peintur_derive",
+]
